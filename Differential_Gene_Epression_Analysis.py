@@ -19,7 +19,8 @@ uploaded_file = st.file_uploader("Upload CSV", type="csv")
 # Main logic
 if uploaded_file:
     try:
-        df = pd.read_csv("deseq5_results.csv")
+        df = pd.read_csv(uploaded_file)
+
         
         # Check if there are at least 2 columns
         if df.shape[1] < 2:
