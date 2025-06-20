@@ -6,7 +6,7 @@ import altair as alt
 st.set_page_config(page_title="Gene Expression Dashboard", layout="wide")
 
 # Title and instructions
-st.title("🧬 Gene Expression Explorer")
+st.title("🧬 Gene Expression Dashboard")
 st.markdown("""
 Upload your gene expression CSV file to explore expression levels across samples.
 - Rows = samples  
